@@ -5724,12 +5724,12 @@ body {
 }
 
 .pink {
-  background: #e91e632b !important;
+  background:#5458ec2b !important;
   color: rgba(255, 255, 255, 0.61) !important;
 }
 
 .pink:hover {
-  background: #E91E63 !important;
+  background: #5458ec !important;
   color: #fff !important;
 }
 
