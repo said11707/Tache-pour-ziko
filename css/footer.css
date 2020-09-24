@@ -1,68 +1,96 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,600");
-
-.container-fluid{
- text-align: center;
+.container-fluid {
+    text-align: center;
 }
+
 .footer-inner-bottom {
-  width: 100%;
-  position: relative;
-  bottom: 0;
-  top: 27rem;
-  z-index: 999;
-  /* padding: 15px 14px; */
-  /* background: #2a2d31; */
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    top: 27rem;
+    z-index: 999;
+    /* padding: 15px 14px; */
+    /* background: #2a2d31; */
 }
-
 
 .btn:hover {
-  background: none !important;
-  border: solid 1px #fff !important;
-  color: #fff !important;
+    background: none !important;
+    border: solid 1px #fff !important;
+    color: #fff !important;
 }
 
 .social-list {
-  margin: 0;
-  padding: 0;
- 
+    margin: 0;
+    padding: 0;
 }
 
 .social-list li {
-  list-style: none;
-  display: inline-block;
-  margin: 5px 20px;
-  overflow: hidden;
+    list-style: none;
+    display: inline-block;
+    margin: 5px 20px;
+    overflow: hidden;
 }
 
 .social-list li a {
-  font-size: 15px;
-  color: #696464;
+    font-size: 15px;
+    color: #696464;
 }
 
 .social-list li a i {
-  -webkit-transition: color 300ms ease, margin-top 300ms ease;
-  transition: color 300ms ease, margin-top 300ms ease;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  color: #fff;
+    -webkit-transition: color 300ms ease, margin-top 300ms ease;
+    transition: color 300ms ease, margin-top 300ms ease;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    color: #fff;
 }
 
 .social-list li a i:hover {
-  margin-top: -5px;
+    margin-top: -5px;
 }
 
 @media only screen and (max-width: 768px) {
+    .footer .social-list {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer .social-list li {
+        display: inline;
+    }
+    .footer .social-list li a {
+        display: inline-block;
+    }
+}
 
-  .footer .social-list {
-    float: none;
+
+/* section image */
+
+.wrapper {
     text-align: center;
-    margin-bottom: 20px;
-  }
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
 
-  .footer .social-list li {
-    display: inline;
-  }
+.img-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
-  .footer .social-list li a {
+.single-img {
+    padding: 0px 21px 21px 1px;
+    width: 35%;
+}
+
+.imag {
+    width: 100%;
     display: inline-block;
-  }
+    border-radius: 12px;
 }
