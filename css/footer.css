@@ -1,24 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,600");
 
 
-/* .footer-inner-top {
-  position: fixed;
-  bottom: 0px;
-  padding: 220px 0;
-  z-index: -1;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-} */
-/* .container-fluid{
-  position: sticky;
-  bottom: 0;
-} */
+
+.container-fluid{
+  text-align: center;
+}
 .footer-inner-bottom {
   width: 100%;
   position: relative;
   bottom: 0;
-  top: 51rem;
+  top: 70rem;
   z-index: 999;
   /* padding: 15px 14px; */
   background: #2a2d31;
