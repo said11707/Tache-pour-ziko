@@ -13,9 +13,12 @@
     /* background: #2a2d31; */
 }
 
+.btn {
+    font-size: 25px !important;
+}
+
 .btn:hover {
     background: none !important;
-    border: solid 1px #fff !important;
     color: #fff !important;
 }
 
@@ -93,4 +96,9 @@
     width: 100%;
     display: inline-block;
     border-radius: 12px;
+}
+
+.imag:hover {
+    opacity: .5;
+    transition: .9s;
 }
